@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a3d47;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#0d5a6e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7ec8d8;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#4ab8cf;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circle top-right -->
+  <circle cx="1050" cy="80" r="220" fill="#ffffff" fill-opacity="0.03"/>
+  <circle cx="1100" cy="120" r="140" fill="#ffffff" fill-opacity="0.04"/>
+
+  <!-- Decorative circle bottom-left -->
+  <circle cx="80" cy="560" r="160" fill="#ffffff" fill-opacity="0.03"/>
+
+  <!-- Left accent bar -->
+  <rect x="80" y="180" width="5" height="270" rx="3" fill="url(#accent)"/>
+
+  <!-- Doctor monogram badge (circle with R) -->
+  <circle cx="140" cy="100" r="46" fill="#ffffff" fill-opacity="0.10"/>
+  <circle cx="140" cy="100" r="40" fill="none" stroke="#7ec8d8" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="140" y="114" text-anchor="middle" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#ffffff">R</text>
+
+  <!-- VynkCard label top-right -->
+  <text x="1120" y="58" text-anchor="end" font-family="'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" fill="#7ec8d8" letter-spacing="2">VYNKCARD</text>
+
+  <!-- Doctor name -->
+  <text x="108" y="248" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="700" fill="#ffffff" letter-spacing="-1">Dr. Rishit V. Patel</text>
+
+  <!-- Accent underline -->
+  <rect x="108" y="265" width="580" height="3" rx="2" fill="url(#accent)" opacity="0.7"/>
+
+  <!-- Title -->
+  <text x="108" y="320" font-family="'Helvetica Neue', Arial, sans-serif" font-size="32" font-weight="400" fill="#7ec8d8" letter-spacing="1">Neurosurgeon — Brain &amp; Spine Surgeon</text>
+
+  <!-- Specialties pills -->
+  <rect x="108" y="360" width="188" height="40" rx="20" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="202" y="385" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff" letter-spacing="0.5">Brain Surgery</text>
+
+  <rect x="308" y="360" width="188" height="40" rx="20" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="402" y="385" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff" letter-spacing="0.5">Spine Surgery</text>
+
+  <rect x="508" y="360" width="210" height="40" rx="20" fill="#ffffff" fill-opacity="0.10"/>
+  <text x="613" y="385" text-anchor="middle" font-family="'Helvetica Neue', Arial, sans-serif" font-size="17" font-weight="600" fill="#ffffff" letter-spacing="0.5">Neurosurgery</text>
+
+  <!-- Divider -->
+  <line x1="108" y1="440" x2="1092" y2="440" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- Location pin icon (simplified) -->
+  <text x="108" y="490" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7ec8d8">📍</text>
+  <text x="140" y="490" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#d0eef5" letter-spacing="0.3">Bhoomi Complex, Dairy Rd, Mehsana, Gujarat 384002</text>
+
+  <!-- Phone icon -->
+  <text x="108" y="532" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" fill="#7ec8d8">📞</text>
+  <text x="140" y="532" font-family="'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="400" fill="#d0eef5" letter-spacing="0.3">+91 9998 625 626</text>
+
+  <!-- Bottom URL -->
+  <text x="108" y="600" font-family="'Helvetica Neue', Arial, sans-serif" font-size="18" font-weight="400" fill="#7ec8d8" fill-opacity="0.8" letter-spacing="0.5">drrishitpatel.vynkcard.com</text>
+</svg>
