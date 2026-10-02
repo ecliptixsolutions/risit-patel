@@ -79,11 +79,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "https://drrishitpatel.vynkcard.com/og-image.svg" },
+      { property: "og:image", content: "https://drrishitpatel.vynkcard.com/og-image.png" },
+      { property: "og:image:type", content: "image/png" },
       { property: "og:image:width", content: "1200" },
       { property: "og:image:height", content: "630" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "https://drrishitpatel.vynkcard.com/og-image.svg" },
+      { name: "twitter:image", content: "https://drrishitpatel.vynkcard.com/og-image.png" },
     ],
     links: [
       {
