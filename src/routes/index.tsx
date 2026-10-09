@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
+import drPhoto from "@/assets/image.png";
 import { QRCodeSVG } from "qrcode.react";
 import { Phone, MapPin, Clock, Navigation, Brain, Share2, UserPlus, ArrowUpRight, Stethoscope, BadgeCheck } from "lucide-react";
 import { AppointmentBooking } from "@/components/AppointmentBooking";
@@ -96,9 +97,9 @@ function Index() {
           <span className="reveal inline-block rounded-full border border-primary-foreground/25 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.25em]">Brain & Spine</span>
         </header>
         <div className="-mt-16 px-6 text-center">
-          <div className="reveal mx-auto h-40 w-32 rounded-xl bg-background p-1.5 shadow-soft">
-            <div className="h-full w-full overflow-hidden rounded-lg">
-              <img src="/dr-rishit-patel.jpeg" alt={NAME} width={1024} height={1536} className="h-full w-full origin-top scale-[1.8] object-cover object-top" />
+          <div className="reveal mx-auto w-36 rounded-2xl bg-background p-1.5 shadow-soft" style={{ aspectRatio: "3/4" }}>
+            <div className="h-full w-full overflow-hidden rounded-xl bg-white">
+              <img src={drPhoto} alt={NAME} className="h-full w-full object-contain object-center" />
             </div>
           </div>
           <h1 className="reveal mt-4 font-display text-4xl font-bold text-primary" style={{ animationDelay: ".1s" }}>{NAME}</h1>
